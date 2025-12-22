@@ -1,0 +1,1566 @@
+{
+  "fixes": [
+    {
+      "x": 54840,
+      "y": 6690,
+      "type": "waypoint",
+      "identifier": "ABSRS",
+      "publisher": "official"
+    },
+    {
+      "x": -51372,
+      "y": -10767,
+      "type": "waypoint",
+      "identifier": "ACRES",
+      "publisher": "official"
+    },
+    {
+      "x": -28989,
+      "y": 33447,
+      "type": "waypoint",
+      "identifier": "ALDER",
+      "publisher": "official"
+    },
+    {
+      "x": -18566,
+      "y": 20529,
+      "type": "waypoint",
+      "identifier": "ALISO",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 6009,
+      "y": -18204,
+      "type": "waypoint",
+      "identifier": "ALLRY",
+      "publisher": "official"
+    },
+    {
+      "x": -18033,
+      "y": 25228,
+      "type": "waypoint",
+      "identifier": "ALOHA",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 35931,
+      "y": 48891,
+      "type": "waypoint",
+      "identifier": "ALTRS",
+      "publisher": "official"
+    },
+    {
+      "x": 14163,
+      "y": 18333,
+      "type": "waypoint",
+      "identifier": "ANYMS",
+      "publisher": "official"
+    },
+    {
+      "x": 14826,
+      "y": 36321,
+      "type": "waypoint",
+      "identifier": "AQWRT",
+      "publisher": "official"
+    },
+    {
+      "x": 7689,
+      "y": 10460,
+      "type": "waypoint",
+      "identifier": "ARCUS",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -15771,
+      "y": -30717,
+      "type": "waypoint",
+      "identifier": "ASTRO",
+      "publisher": "official"
+    },
+    {
+      "x": 4266,
+      "y": 16389,
+      "type": "waypoint",
+      "identifier": "ATPEV",
+      "publisher": "official"
+    },
+    {
+      "x": -38961,
+      "y": 30273,
+      "type": "vortac",
+      "identifier": "BAR",
+      "publisher": "official"
+    },
+    {
+      "x": -28017,
+      "y": 18990,
+      "type": "waypoint",
+      "identifier": "BEANS",
+      "publisher": "official"
+    },
+    {
+      "x": -15466,
+      "y": 12305,
+      "type": "waypoint",
+      "identifier": "BIGDY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 46824,
+      "y": 11157,
+      "type": "waypoint",
+      "identifier": "BILLO",
+      "publisher": "official"
+    },
+    {
+      "x": -8784,
+      "y": 14955,
+      "type": "vordme",
+      "identifier": "BLA",
+      "publisher": "official"
+    },
+    {
+      "x": -25092,
+      "y": -14322,
+      "type": "waypoint",
+      "identifier": "BLANK",
+      "publisher": "official"
+    },
+    {
+      "x": -24154,
+      "y": 36327,
+      "type": "waypoint",
+      "identifier": "BLUZE",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -46806,
+      "y": -16122,
+      "type": "waypoint",
+      "identifier": "BOBOS",
+      "publisher": "official"
+    },
+    {
+      "x": 39423,
+      "y": 35382,
+      "type": "waypoint",
+      "identifier": "BOBUX",
+      "publisher": "official"
+    },
+    {
+      "x": -17770,
+      "y": 14850,
+      "type": "waypoint",
+      "identifier": "BRDGE",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 23988,
+      "y": -19914,
+      "type": "vortac",
+      "identifier": "BTM",
+      "publisher": "official"
+    },
+    {
+      "x": -20472,
+      "y": 8718,
+      "type": "waypoint",
+      "identifier": "BUCFA",
+      "publisher": "official"
+    },
+    {
+      "x": -34029,
+      "y": -29853,
+      "type": "waypoint",
+      "identifier": "BULLY",
+      "publisher": "official"
+    },
+    {
+      "x": -1634,
+      "y": 28485,
+      "type": "waypoint",
+      "identifier": "CAHIL",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 21027,
+      "y": -6321,
+      "type": "waypoint",
+      "identifier": "CAMEL",
+      "publisher": "official"
+    },
+    {
+      "x": 9366,
+      "y": 39216,
+      "type": "vortac",
+      "identifier": "CAN",
+      "publisher": "official"
+    },
+    {
+      "x": 18669,
+      "y": 7617,
+      "type": "waypoint",
+      "identifier": "CAWZE",
+      "publisher": "official"
+    },
+    {
+      "x": -38040,
+      "y": 5070,
+      "type": "waypoint",
+      "identifier": "CELAR",
+      "publisher": "official"
+    },
+    {
+      "x": 54840,
+      "y": 18969,
+      "type": "waypoint",
+      "identifier": "CHAIN",
+      "publisher": "official"
+    },
+    {
+      "x": 3315,
+      "y": -40650,
+      "type": "waypoint",
+      "identifier": "CHILY",
+      "publisher": "official"
+    },
+    {
+      "x": 20046,
+      "y": 14943,
+      "type": "vortac",
+      "identifier": "CLR",
+      "publisher": "official"
+    },
+    {
+      "x": 15048,
+      "y": -27387,
+      "type": "vortac",
+      "identifier": "COC",
+      "publisher": "official"
+    },
+    {
+      "x": -49408,
+      "y": -7806,
+      "type": "waypoint",
+      "identifier": "COOLR",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 18213,
+      "y": -35193,
+      "type": "waypoint",
+      "identifier": "CRAZY",
+      "publisher": "official"
+    },
+    {
+      "x": 26388,
+      "y": 438,
+      "type": "waypoint",
+      "identifier": "CYRIL",
+      "publisher": "official"
+    },
+    {
+      "x": -13126,
+      "y": 25322,
+      "type": "waypoint",
+      "identifier": "DAALE",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 17685,
+      "y": 25376,
+      "type": "waypoint",
+      "identifier": "DAGAT",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -21455,
+      "y": 24695,
+      "type": "waypoint",
+      "identifier": "DARRK",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 46734,
+      "y": 29505,
+      "type": "waypoint",
+      "identifier": "DEBUG",
+      "publisher": "official"
+    },
+    {
+      "x": 27828,
+      "y": 11349,
+      "type": "vortac",
+      "identifier": "DEL",
+      "publisher": "official"
+    },
+    {
+      "x": 46527,
+      "y": 17787,
+      "type": "vortac",
+      "identifier": "DET",
+      "publisher": "official"
+    },
+    {
+      "x": 15528,
+      "y": 34574,
+      "type": "waypoint",
+      "identifier": "DIDDY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 3075,
+      "y": -9945,
+      "type": "waypoint",
+      "identifier": "DINER",
+      "publisher": "official"
+    },
+    {
+      "x": -31747,
+      "y": 21700,
+      "type": "waypoint",
+      "identifier": "DINTY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 11997,
+      "y": 44199,
+      "type": "vortac",
+      "identifier": "DIR",
+      "publisher": "official"
+    },
+    {
+      "x": 48342,
+      "y": 4560,
+      "type": "vortac",
+      "identifier": "DIZ",
+      "publisher": "official"
+    },
+    {
+      "x": -7973,
+      "y": 25503,
+      "type": "waypoint",
+      "identifier": "DLREY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -7799,
+      "y": 26751,
+      "type": "waypoint",
+      "identifier": "DOCKR",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 35742,
+      "y": 7254,
+      "type": "waypoint",
+      "identifier": "DOGGO",
+      "publisher": "official"
+    },
+    {
+      "x": 28113,
+      "y": -5961,
+      "type": "waypoint",
+      "identifier": "DUNKS",
+      "publisher": "official"
+    },
+    {
+      "x": -46344,
+      "y": 18094,
+      "type": "waypoint",
+      "identifier": "ECHHO",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -15786,
+      "y": 36090,
+      "type": "waypoint",
+      "identifier": "EMJAY",
+      "publisher": "official"
+    },
+    {
+      "x": -20991,
+      "y": 684,
+      "type": "waypoint",
+      "identifier": "ENDER",
+      "publisher": "official"
+    },
+    {
+      "x": -27699,
+      "y": -20175,
+      "type": "waypoint",
+      "identifier": "EURAD",
+      "publisher": "official"
+    },
+    {
+      "x": -19848,
+      "y": 26751,
+      "type": "waypoint",
+      "identifier": "EXMOR",
+      "publisher": "official"
+    },
+    {
+      "x": -24729,
+      "y": -4431,
+      "type": "waypoint",
+      "identifier": "EZYDB",
+      "publisher": "official"
+    },
+    {
+      "x": -11474,
+      "y": 22431,
+      "type": "waypoint",
+      "identifier": "FABRA",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -9263,
+      "y": 9500,
+      "type": "waypoint",
+      "identifier": "FISHH",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 20460,
+      "y": 48891,
+      "type": "waypoint",
+      "identifier": "FORCE",
+      "publisher": "official"
+    },
+    {
+      "x": 6009,
+      "y": 42165,
+      "type": "waypoint",
+      "identifier": "FORIA",
+      "publisher": "official"
+    },
+    {
+      "x": -55854,
+      "y": 1920,
+      "type": "waypoint",
+      "identifier": "FRANK",
+      "publisher": "official"
+    },
+    {
+      "x": -40329,
+      "y": -22335,
+      "type": "waypoint",
+      "identifier": "FROOT",
+      "publisher": "official"
+    },
+    {
+      "x": 5388,
+      "y": 1389,
+      "type": "waypoint",
+      "identifier": "GAVIN",
+      "publisher": "official"
+    },
+    {
+      "x": -46344,
+      "y": 22878,
+      "type": "waypoint",
+      "identifier": "GEORG",
+      "publisher": "official"
+    },
+    {
+      "x": -16539,
+      "y": -15387,
+      "type": "waypoint",
+      "identifier": "GERLD",
+      "publisher": "official"
+    },
+    {
+      "x": 2301,
+      "y": 27399,
+      "type": "waypoint",
+      "identifier": "GODLU",
+      "publisher": "official"
+    },
+    {
+      "x": -48945,
+      "y": -2394,
+      "type": "vortac",
+      "identifier": "GOL",
+      "publisher": "official"
+    },
+    {
+      "x": -48945,
+      "y": -2394,
+      "type": "waypoint",
+      "identifier": "GOLDN",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 21269,
+      "y": 2415,
+      "type": "waypoint",
+      "identifier": "GOOSE",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 11468,
+      "y": 23622,
+      "type": "waypoint",
+      "identifier": "GORDO",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 17583,
+      "y": 25671,
+      "type": "waypoint",
+      "identifier": "GRASS",
+      "publisher": "official"
+    },
+    {
+      "x": 8384,
+      "y": 2208,
+      "type": "waypoint",
+      "identifier": "GREEK",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -17034,
+      "y": 23226,
+      "type": "vortac",
+      "identifier": "GRY",
+      "publisher": "official"
+    },
+    {
+      "x": -22233,
+      "y": -25842,
+      "type": "waypoint",
+      "identifier": "GULEG",
+      "publisher": "official"
+    },
+    {
+      "x": -44550,
+      "y": -3396,
+      "type": "vordme",
+      "identifier": "GVK",
+      "publisher": "official"
+    },
+    {
+      "x": -54678,
+      "y": 20346,
+      "type": "waypoint",
+      "identifier": "HACKE",
+      "publisher": "official"
+    },
+    {
+      "x": -40545,
+      "y": -6075,
+      "type": "vortac",
+      "identifier": "HAW",
+      "publisher": "official"
+    },
+    {
+      "x": -8880,
+      "y": 11496,
+      "type": "waypoint",
+      "identifier": "HAWFA",
+      "publisher": "official"
+    },
+    {
+      "x": -40545,
+      "y": -6075,
+      "type": "waypoint",
+      "identifier": "HAWKN",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -14533,
+      "y": 38015,
+      "type": "waypoint",
+      "identifier": "HAYNK",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -56751,
+      "y": 30276,
+      "type": "waypoint",
+      "identifier": "HECKS",
+      "publisher": "official"
+    },
+    {
+      "x": -11581,
+      "y": 23778,
+      "type": "waypoint",
+      "identifier": "HIIPR",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -8574,
+      "y": -32031,
+      "type": "vordme",
+      "identifier": "HME",
+      "publisher": "official"
+    },
+    {
+      "x": -30375,
+      "y": 39738,
+      "type": "waypoint",
+      "identifier": "HOGGS",
+      "publisher": "official"
+    },
+    {
+      "x": -8514,
+      "y": 34641,
+      "type": "waypoint",
+      "identifier": "HOLTZ",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 6171,
+      "y": -35220,
+      "type": "waypoint",
+      "identifier": "HONDA",
+      "publisher": "official"
+    },
+    {
+      "x": 35349,
+      "y": -4632,
+      "type": "vortac",
+      "identifier": "HOT",
+      "publisher": "official"
+    },
+    {
+      "x": 29511,
+      "y": 39537,
+      "type": "vortac",
+      "identifier": "HUT",
+      "publisher": "official"
+    },
+    {
+      "x": -14313,
+      "y": 12456,
+      "type": "waypoint",
+      "identifier": "ICTAM",
+      "publisher": "official"
+    },
+    {
+      "x": -36005,
+      "y": -2526,
+      "type": "waypoint",
+      "identifier": "ICYYY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -7029,
+      "y": -699,
+      "type": "waypoint",
+      "identifier": "INDEX",
+      "publisher": "official"
+    },
+    {
+      "x": 44352,
+      "y": 4032,
+      "type": "vordme",
+      "identifier": "IZO",
+      "publisher": "official"
+    },
+    {
+      "x": -4445,
+      "y": 7253,
+      "type": "waypoint",
+      "identifier": "IZZAT",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 33678,
+      "y": 29502,
+      "type": "waypoint",
+      "identifier": "JACKI",
+      "publisher": "official"
+    },
+    {
+      "x": 7689,
+      "y": 22431,
+      "type": "waypoint",
+      "identifier": "JAMSI",
+      "publisher": "official"
+    },
+    {
+      "x": 46638,
+      "y": 42240,
+      "type": "waypoint",
+      "identifier": "JAZZR",
+      "publisher": "official"
+    },
+    {
+      "x": -51010,
+      "y": 27705,
+      "type": "waypoint",
+      "identifier": "JETTI",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -2937,
+      "y": -15414,
+      "type": "waypoint",
+      "identifier": "JOOPY",
+      "publisher": "official"
+    },
+    {
+      "x": -17202,
+      "y": 34894,
+      "type": "waypoint",
+      "identifier": "JUNOR",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 38118,
+      "y": 16035,
+      "type": "waypoint",
+      "identifier": "JUSTY",
+      "publisher": "official"
+    },
+    {
+      "x": 33924,
+      "y": -18804,
+      "type": "waypoint",
+      "identifier": "KELLA",
+      "publisher": "official"
+    },
+    {
+      "x": -12495,
+      "y": 3669,
+      "type": "waypoint",
+      "identifier": "KENED",
+      "publisher": "official"
+    },
+    {
+      "x": 29349,
+      "y": 27636,
+      "type": "vortac",
+      "identifier": "KIN",
+      "publisher": "official"
+    },
+    {
+      "x": 1062,
+      "y": -24798,
+      "type": "waypoint",
+      "identifier": "KNIFE",
+      "publisher": "official"
+    },
+    {
+      "x": -51972,
+      "y": 24579,
+      "type": "vortac",
+      "identifier": "KRT",
+      "publisher": "official"
+    },
+    {
+      "x": -12447,
+      "y": 9489,
+      "type": "waypoint",
+      "identifier": "KUNAV",
+      "publisher": "official"
+    },
+    {
+      "x": -23319,
+      "y": 13102,
+      "type": "waypoint",
+      "identifier": "LAAMP",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 1188,
+      "y": 17634,
+      "type": "waypoint",
+      "identifier": "LAVNO",
+      "publisher": "official"
+    },
+    {
+      "x": 6984,
+      "y": 29328,
+      "type": "waypoint",
+      "identifier": "LAZER",
+      "publisher": "official"
+    },
+    {
+      "x": 20712,
+      "y": 31773,
+      "type": "vordme",
+      "identifier": "LCK",
+      "publisher": "official"
+    },
+    {
+      "x": -4908,
+      "y": -35184,
+      "type": "waypoint",
+      "identifier": "LETSE",
+      "publisher": "official"
+    },
+    {
+      "x": 53373,
+      "y": -8349,
+      "type": "waypoint",
+      "identifier": "LLIME",
+      "publisher": "official"
+    },
+    {
+      "x": -21063,
+      "y": 20553,
+      "type": "waypoint",
+      "identifier": "LOGAN",
+      "publisher": "official"
+    },
+    {
+      "x": 263,
+      "y": 36078,
+      "type": "waypoint",
+      "identifier": "LUBAN",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 29235,
+      "y": 48891,
+      "type": "waypoint",
+      "identifier": "MASEV",
+      "publisher": "official"
+    },
+    {
+      "x": 347,
+      "y": 5019,
+      "type": "waypoint",
+      "identifier": "MATRX",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -7869,
+      "y": -6103,
+      "type": "waypoint",
+      "identifier": "MDWAY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 635,
+      "y": 22677,
+      "type": "waypoint",
+      "identifier": "MDWST",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 3836,
+      "y": 14704,
+      "type": "waypoint",
+      "identifier": "MJSTY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -20286,
+      "y": 14640,
+      "type": "vordme",
+      "identifier": "MLR",
+      "publisher": "official"
+    },
+    {
+      "x": -12255,
+      "y": 23361,
+      "type": "waypoint",
+      "identifier": "MOGTA",
+      "publisher": "official"
+    },
+    {
+      "x": 50298,
+      "y": -1980,
+      "type": "waypoint",
+      "identifier": "MORRD",
+      "publisher": "official"
+    },
+    {
+      "x": 17835,
+      "y": 17751,
+      "type": "waypoint",
+      "identifier": "MOSSY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 38181,
+      "y": 42195,
+      "type": "waypoint",
+      "identifier": "MUONE",
+      "publisher": "official"
+    },
+    {
+      "x": 10806,
+      "y": -4446,
+      "type": "waypoint",
+      "identifier": "NARXX",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -12240,
+      "y": -42360,
+      "type": "waypoint",
+      "identifier": "NIKON",
+      "publisher": "official"
+    },
+    {
+      "x": 45393,
+      "y": 183,
+      "type": "vordme",
+      "identifier": "NJF",
+      "publisher": "official"
+    },
+    {
+      "x": -804,
+      "y": -6110,
+      "type": "waypoint",
+      "identifier": "NKITA",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 28935,
+      "y": -19086,
+      "type": "waypoint",
+      "identifier": "NOONU",
+      "publisher": "official"
+    },
+    {
+      "x": 54747,
+      "y": 36882,
+      "type": "waypoint",
+      "identifier": "NUBER",
+      "publisher": "official"
+    },
+    {
+      "x": 10668,
+      "y": 5256,
+      "type": "waypoint",
+      "identifier": "OCEEN",
+      "publisher": "official"
+    },
+    {
+      "x": -4803,
+      "y": 36078,
+      "type": "waypoint",
+      "identifier": "ODOKU",
+      "publisher": "official"
+    },
+    {
+      "x": -5997,
+      "y": -23073,
+      "type": "waypoint",
+      "identifier": "ONDER",
+      "publisher": "official"
+    },
+    {
+      "x": 18495,
+      "y": -15279,
+      "type": "vortac",
+      "identifier": "ORG",
+      "publisher": "official"
+    },
+    {
+      "x": -3639,
+      "y": 35012,
+      "type": "waypoint",
+      "identifier": "OSHNN",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -49680,
+      "y": 32220,
+      "type": "waypoint",
+      "identifier": "PACKT",
+      "publisher": "official"
+    },
+    {
+      "x": -9882,
+      "y": 28688,
+      "type": "waypoint",
+      "identifier": "PEPUL",
+      "publisher": "official"
+    },
+    {
+      "x": 15786,
+      "y": -20832,
+      "type": "vordme",
+      "identifier": "PER",
+      "publisher": "official"
+    },
+    {
+      "x": -12910,
+      "y": 34808,
+      "type": "waypoint",
+      "identifier": "PEVEE",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 29994,
+      "y": 34413,
+      "type": "vordme",
+      "identifier": "PFO",
+      "publisher": "official"
+    },
+    {
+      "x": -13644,
+      "y": -25113,
+      "type": "waypoint",
+      "identifier": "PIPER",
+      "publisher": "official"
+    },
+    {
+      "x": 12237,
+      "y": 24086,
+      "type": "waypoint",
+      "identifier": "PMPKN",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 2337,
+      "y": 10462,
+      "type": "waypoint",
+      "identifier": "POPPY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -8403,
+      "y": -10497,
+      "type": "waypoint",
+      "identifier": "PROBE",
+      "publisher": "official"
+    },
+    {
+      "x": -3297,
+      "y": 15606,
+      "type": "waypoint",
+      "identifier": "QUEEN",
+      "publisher": "official"
+    },
+    {
+      "x": -16379,
+      "y": 28083,
+      "type": "waypoint",
+      "identifier": "QURAN",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -2412,
+      "y": 44034,
+      "type": "waypoint",
+      "identifier": "REAPR",
+      "publisher": "official"
+    },
+    {
+      "x": -12456,
+      "y": -14379,
+      "type": "waypoint",
+      "identifier": "RENDR",
+      "publisher": "official"
+    },
+    {
+      "x": 25209,
+      "y": 22182,
+      "type": "waypoint",
+      "identifier": "RENTS",
+      "publisher": "official"
+    },
+    {
+      "x": -864,
+      "y": -4086,
+      "type": "vortac",
+      "identifier": "RES",
+      "publisher": "official"
+    },
+    {
+      "x": -4728,
+      "y": 20217,
+      "type": "vordme",
+      "identifier": "RFD",
+      "publisher": "official"
+    },
+    {
+      "x": -31822,
+      "y": 16704,
+      "type": "waypoint",
+      "identifier": "RIZIN",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 8283,
+      "y": -10806,
+      "type": "vortac",
+      "identifier": "ROM",
+      "publisher": "official"
+    },
+    {
+      "x": 39513,
+      "y": -9591,
+      "type": "waypoint",
+      "identifier": "ROSMO",
+      "publisher": "official"
+    },
+    {
+      "x": 4920,
+      "y": 36078,
+      "type": "waypoint",
+      "identifier": "SAMPA",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -46926,
+      "y": 27147,
+      "type": "vordme",
+      "identifier": "SAU",
+      "publisher": "official"
+    },
+    {
+      "x": -28527,
+      "y": 10803,
+      "type": "waypoint",
+      "identifier": "SAWPE",
+      "publisher": "official"
+    },
+    {
+      "x": -42501,
+      "y": 27146,
+      "type": "waypoint",
+      "identifier": "SAYOW",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 3409,
+      "y": -5513,
+      "type": "vordme",
+      "identifier": "SBH",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -44323,
+      "y": 31467,
+      "type": "waypoint",
+      "identifier": "SCYTH",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 2031,
+      "y": 20259,
+      "type": "waypoint",
+      "identifier": "SEBBY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -37602,
+      "y": 25821,
+      "type": "waypoint",
+      "identifier": "SEEKS",
+      "publisher": "official"
+    },
+    {
+      "x": 2337,
+      "y": 7653,
+      "type": "waypoint",
+      "identifier": "SETHR",
+      "publisher": "official"
+    },
+    {
+      "x": -14956,
+      "y": 29354,
+      "type": "waypoint",
+      "identifier": "SHAEF",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -26493,
+      "y": -40395,
+      "type": "waypoint",
+      "identifier": "SHELL",
+      "publisher": "official"
+    },
+    {
+      "x": -18480,
+      "y": -37746,
+      "type": "waypoint",
+      "identifier": "SHIBA",
+      "publisher": "official"
+    },
+    {
+      "x": -47022,
+      "y": 11247,
+      "type": "waypoint",
+      "identifier": "SHREK",
+      "publisher": "official"
+    },
+    {
+      "x": 16503,
+      "y": 1575,
+      "type": "waypoint",
+      "identifier": "SILVA",
+      "publisher": "official"
+    },
+    {
+      "x": 31983,
+      "y": -12702,
+      "type": "waypoint",
+      "identifier": "SISTA",
+      "publisher": "official"
+    },
+    {
+      "x": -48368,
+      "y": -655,
+      "type": "waypoint",
+      "identifier": "SKIII",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 24172,
+      "y": 12319,
+      "type": "vordme",
+      "identifier": "SKP",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -15145,
+      "y": 515,
+      "type": "waypoint",
+      "identifier": "SKYDV",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -37644,
+      "y": 13071,
+      "type": "waypoint",
+      "identifier": "SPACE",
+      "publisher": "official"
+    },
+    {
+      "x": 36015,
+      "y": -26115,
+      "type": "waypoint",
+      "identifier": "SQUID",
+      "publisher": "official"
+    },
+    {
+      "x": -40317,
+      "y": 35763,
+      "type": "waypoint",
+      "identifier": "STACK",
+      "publisher": "official"
+    },
+    {
+      "x": 11907,
+      "y": -17349,
+      "type": "waypoint",
+      "identifier": "STRAX",
+      "publisher": "official"
+    },
+    {
+      "x": -26238,
+      "y": 5082,
+      "type": "waypoint",
+      "identifier": "SUNST",
+      "publisher": "official"
+    },
+    {
+      "x": -864,
+      "y": -4086,
+      "type": "waypoint",
+      "identifier": "SURGE",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -3766,
+      "y": 12398,
+      "type": "waypoint",
+      "identifier": "SWEET",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 12426,
+      "y": 28186,
+      "type": "waypoint",
+      "identifier": "SWIFT",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 25524,
+      "y": -11688,
+      "type": "waypoint",
+      "identifier": "TALIS",
+      "publisher": "official"
+    },
+    {
+      "x": -55953,
+      "y": 10374,
+      "type": "waypoint",
+      "identifier": "THACC",
+      "publisher": "official"
+    },
+    {
+      "x": -40452,
+      "y": -12771,
+      "type": "waypoint",
+      "identifier": "THENR",
+      "publisher": "official"
+    },
+    {
+      "x": 10191,
+      "y": -22410,
+      "type": "waypoint",
+      "identifier": "TINDR",
+      "publisher": "official"
+    },
+    {
+      "x": -26493,
+      "y": 16709,
+      "type": "waypoint",
+      "identifier": "TOURR",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 34905,
+      "y": 690,
+      "type": "vortac",
+      "identifier": "TRE",
+      "publisher": "official"
+    },
+    {
+      "x": -11238,
+      "y": 45612,
+      "type": "waypoint",
+      "identifier": "TRELN",
+      "publisher": "official"
+    },
+    {
+      "x": -3423,
+      "y": 29943,
+      "type": "vordme",
+      "identifier": "TRN",
+      "publisher": "official"
+    },
+    {
+      "x": -16383,
+      "y": -18261,
+      "type": "waypoint",
+      "identifier": "TUDEP",
+      "publisher": "official"
+    },
+    {
+      "x": -45966,
+      "y": 2028,
+      "type": "waypoint",
+      "identifier": "TVARO",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 50277,
+      "y": -14061,
+      "type": "waypoint",
+      "identifier": "UDMUG",
+      "publisher": "official"
+    },
+    {
+      "x": -26201,
+      "y": 17236,
+      "type": "waypoint",
+      "identifier": "URMOM",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -56427,
+      "y": -5775,
+      "type": "waypoint",
+      "identifier": "UWAIS",
+      "publisher": "official"
+    },
+    {
+      "x": 31495,
+      "y": 31773,
+      "type": "waypoint",
+      "identifier": "VIILL",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 10806,
+      "y": -4446,
+      "type": "vortac",
+      "identifier": "VOX",
+      "publisher": "official"
+    },
+    {
+      "x": -39101,
+      "y": 26751,
+      "type": "waypoint",
+      "identifier": "VYDDA",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 43389,
+      "y": -30123,
+      "type": "waypoint",
+      "identifier": "WAGON",
+      "publisher": "official"
+    },
+    {
+      "x": -50265,
+      "y": 40611,
+      "type": "waypoint",
+      "identifier": "WASTE",
+      "publisher": "official"
+    },
+    {
+      "x": -7329,
+      "y": 28823,
+      "type": "waypoint",
+      "identifier": "WEILR",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 24522,
+      "y": -26283,
+      "type": "waypoint",
+      "identifier": "WELLS",
+      "publisher": "official"
+    },
+    {
+      "x": -12498,
+      "y": -4509,
+      "type": "waypoint",
+      "identifier": "WELSH",
+      "publisher": "official"
+    },
+    {
+      "x": 22747,
+      "y": 31773,
+      "type": "waypoint",
+      "identifier": "WILEK",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 7707,
+      "y": 8217,
+      "type": "waypoint",
+      "identifier": "WNNDY",
+      "publisher": "aeronav"
+    },
+    {
+      "x": 33834,
+      "y": -33351,
+      "type": "waypoint",
+      "identifier": "WOTAN",
+      "publisher": "official"
+    },
+    {
+      "x": -33150,
+      "y": -8859,
+      "type": "waypoint",
+      "identifier": "YOUTH",
+      "publisher": "official"
+    },
+    {
+      "x": 46035,
+      "y": -23397,
+      "type": "waypoint",
+      "identifier": "ZESTA",
+      "publisher": "official"
+    },
+    {
+      "x": -487,
+      "y": 24622,
+      "type": "waypoint",
+      "identifier": "ZOOMM",
+      "publisher": "aeronav"
+    },
+    {
+      "x": -47648,
+      "y": 32345,
+      "type": "waypoint",
+      "identifier": "ZZOOO",
+      "publisher": "aeronav"
+    }
+  ],
+  "airportPositions": [
+    {
+      "x": -4854,
+      "y": -44892,
+      "icao": "IDCS"
+    },
+    {
+      "x": -7368,
+      "y": -31953,
+      "icao": "itko"
+    },
+    {
+      "x": 18105,
+      "y": -20409,
+      "icao": "ipph"
+    },
+    {
+      "x": 22623,
+      "y": -16512,
+      "icao": "ilkl"
+    },
+    {
+      "x": -43158,
+      "y": -2757,
+      "icao": "igrv"
+    },
+    {
+      "x": 5778,
+      "y": -4509,
+      "icao": "ibth"
+    },
+    {
+      "x": 36111,
+      "y": -5001,
+      "icao": "iscm"
+    },
+    {
+      "x": 46182,
+      "y": 222,
+      "icao": "ijaf"
+    },
+    {
+      "x": 44772,
+      "y": 3420,
+      "icao": "izol"
+    },
+    {
+      "x": -46056,
+      "y": 27501,
+      "icao": "isau"
+    },
+    {
+      "x": -19365,
+      "y": 14766,
+      "icao": "imlr"
+    },
+    {
+      "x": -16272,
+      "y": 23655,
+      "icao": "igar"
+    },
+    {
+      "x": -2925,
+      "y": 20082,
+      "icao": "irfd"
+    },
+    {
+      "x": -11226,
+      "y": 17466,
+      "icao": "iblt"
+    },
+    {
+      "x": 21330,
+      "y": 32406,
+      "icao": "ilar"
+    },
+    {
+      "x": 31731,
+      "y": 34272,
+      "icao": "ipap"
+    },
+    {
+      "x": 23220,
+      "y": 40350,
+      "icao": "iiab"
+    },
+    {
+      "x": -1995,
+      "y": 30057,
+      "icao": "ITRC"
+    }
+  ]
+}

@@ -1,0 +1,2656 @@
+{
+  "stars": [
+    {
+      "id": "JAMSI1",
+      "name": "JAMSI1 RNAV ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "7L",
+        "7C",
+        "7R",
+        "25L",
+        "25C",
+        "25R"
+      ],
+      "runwayRoutes": {
+        "25L": [
+          {
+            "fix": "JAMSI",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 347
+            },
+            "order": 1
+          }
+        ],
+        "25C": [
+          {
+            "fix": "JAMSI",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 347
+            },
+            "order": 1
+          }
+        ],
+        "25R": [
+          {
+            "fix": "JAMSI",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 347
+            },
+            "order": 1
+          }
+        ],
+        "7L": [
+          {
+            "fix": "JAMSI",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "GODLU",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "PEPUL",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 1300,
+              "unit": "ft"
+            },
+            "order": 3
+          }
+        ],
+        "7C": [
+          {
+            "fix": "JAMSI",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "GODLU",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "PEPUL",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 1300,
+              "unit": "ft"
+            },
+            "order": 3
+          }
+        ],
+        "7R": [
+          {
+            "fix": "JAMSI",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "GODLU",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "PEPUL",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 1300,
+              "unit": "ft"
+            },
+            "order": 3
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "name": "GRASS",
+          "waypoints": [
+            {
+              "fix": "GRASS",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "ANYMS",
+          "waypoints": [
+            {
+              "fix": "ANYMS",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BEANS1",
+      "name": "BEANS 1 RNAV ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "25L",
+        "25R",
+        "25C",
+        "7L",
+        "7C",
+        "7R"
+      ],
+      "runwayRoutes": {
+        "25L": [
+          {
+            "fix": "BRDGE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ICTAM",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 80
+            },
+            "order": 3
+          }
+        ],
+        "25R": [
+          {
+            "fix": "BRDGE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ICTAM",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 80
+            },
+            "order": 3
+          }
+        ],
+        "25C": [
+          {
+            "fix": "BRDGE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ICTAM",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 80
+            },
+            "order": 3
+          }
+        ],
+        "7L": [
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          }
+        ],
+        "7C": [
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          }
+        ],
+        "7R": [
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "BEANS",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "SPACE",
+          "waypoints": [
+            {
+              "fix": "SPACE",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "SEEKS",
+          "waypoints": [
+            {
+              "fix": "SEEKS",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GORDO1",
+      "name": "GORDO 1 ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "7C",
+        "7L"
+      ],
+      "commonRoute": [
+        {
+          "fix": "SKP",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "MOSSY",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 2
+        },
+        {
+          "fix": "GORDO",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 3
+        },
+        {
+          "fix": "GODLU",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 4
+        },
+        {
+          "fix": "TRN",
+          "speedRestriction": null,
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 2000,
+            "unit": "ft"
+          },
+          "order": 5
+        }
+      ]
+    },
+    {
+      "id": "KUNAV1",
+      "name": "KUNAV 1 RNAV ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "25L",
+        "25C",
+        "25R",
+        "7L",
+        "7C",
+        "7R"
+      ],
+      "runwayRoutes": {
+        "25L": [
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "SWEET",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 70
+            },
+            "order": 2
+          }
+        ],
+        "25C": [
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "SWEET",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 70
+            },
+            "order": 2
+          }
+        ],
+        "25R": [
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "SWEET",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 70
+            },
+            "order": 2
+          }
+        ],
+        "7L": [
+          {
+            "fix": "BRDGE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ALISO",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 115
+            },
+            "order": 2
+          }
+        ],
+        "7C": [
+          {
+            "fix": "BRDGE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ALISO",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 115
+            },
+            "order": 2
+          }
+        ],
+        "7R": [
+          {
+            "fix": "BRDGE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ALISO",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 115
+            },
+            "order": 2
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "KUNAV",
+          "speedRestriction": null,
+          "altitudeRestriction": {
+            "type": "aoa",
+            "value": 2000,
+            "unit": "ft"
+          },
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "DINER",
+          "waypoints": [
+            {
+              "fix": "DINER",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "SURGE",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            },
+            {
+              "fix": "INDEX",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 3
+            },
+            {
+              "fix": "KENED",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 4
+            }
+          ]
+        },
+        {
+          "name": "RENDR",
+          "waypoints": [
+            {
+              "fix": "RENDR",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "WELSH",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            },
+            {
+              "fix": "KENED",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MATRX1",
+      "name": "MATRX 1 ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "25L",
+        "25C",
+        "25R",
+        "7L",
+        "7C",
+        "7R"
+      ],
+      "runwayRoutes": {
+        "25L": [
+          {
+            "fix": "MATRX",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 157
+            },
+            "order": 1
+          }
+        ],
+        "25C": [
+          {
+            "fix": "MATRX",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 157
+            },
+            "order": 1
+          }
+        ],
+        "25R": [
+          {
+            "fix": "MATRX",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 157
+            },
+            "order": 1
+          }
+        ],
+        "7L": [
+          {
+            "fix": "IZZAT",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "FISHH",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 245
+            },
+            "order": 2
+          }
+        ],
+        "7C": [
+          {
+            "fix": "IZZAT",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "FISHH",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 245
+            },
+            "order": 2
+          }
+        ],
+        "7R": [
+          {
+            "fix": "IZZAT",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "FISHH",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 245
+            },
+            "order": 2
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "name": "SBH",
+          "waypoints": [
+            {
+              "fix": "SBH",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MLR1",
+      "name": "MELLOR 1 ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "25L",
+        "25C",
+        "25R",
+        "7L",
+        "7C",
+        "7R"
+      ],
+      "runwayRoutes": {
+        "25L": [
+          {
+            "fix": "ICTAM",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 67
+            },
+            "order": 1
+          }
+        ],
+        "25C": [
+          {
+            "fix": "ICTAM",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 67
+            },
+            "order": 1
+          }
+        ],
+        "25R": [
+          {
+            "fix": "ICTAM",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 67
+            },
+            "order": 1
+          }
+        ],
+        "7L": [
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 110
+            },
+            "order": 1
+          }
+        ],
+        "7C": [
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 110
+            },
+            "order": 1
+          }
+        ],
+        "7R": [
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 110
+            },
+            "order": 1
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "MLR",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "POPPY3",
+      "name": "POPPY 3 RNAV ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "25L",
+        "25C",
+        "25R",
+        "7L",
+        "7C",
+        "7R"
+      ],
+      "runwayRoutes": {
+        "25L": [
+          {
+            "fix": "POPPY",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 1200,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 157
+            },
+            "order": 1
+          }
+        ],
+        "25C": [
+          {
+            "fix": "POPPY",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 1200,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 157
+            },
+            "order": 1
+          }
+        ],
+        "25R": [
+          {
+            "fix": "POPPY",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 1200,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 157
+            },
+            "order": 1
+          }
+        ],
+        "7L": [
+          {
+            "fix": "POPPY",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 1200,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 270
+            },
+            "order": 1
+          }
+        ],
+        "7C": [
+          {
+            "fix": "POPPY",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 1200,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 270
+            },
+            "order": 1
+          }
+        ],
+        "7R": [
+          {
+            "fix": "POPPY",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 1200,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 270
+            },
+            "order": 1
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "SETHR",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "NARXX",
+          "waypoints": [
+            {
+              "fix": "NARXX",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "GAVIN",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "name": "CYRIL",
+          "waypoints": [
+            {
+              "fix": "CYRIL",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "SILVA",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            },
+            {
+              "fix": "OCEEN",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 3
+            }
+          ]
+        },
+        {
+          "name": "CAWZE",
+          "waypoints": [
+            {
+              "fix": "CAWZE",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "OCEEN",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SUNST3",
+      "name": "SUNST 3 RNAV ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "25L",
+        "25C",
+        "25R",
+        "7L",
+        "7C",
+        "7R"
+      ],
+      "runwayRoutes": {
+        "25L": [
+          {
+            "fix": "BUCFA",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "SWEET",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 67
+            },
+            "order": 3
+          }
+        ],
+        "25C": [
+          {
+            "fix": "BUCFA",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "SWEET",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 67
+            },
+            "order": 3
+          }
+        ],
+        "25R": [
+          {
+            "fix": "BUCFA",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "HAWFA",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          },
+          {
+            "fix": "SWEET",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 67
+            },
+            "order": 3
+          }
+        ],
+        "7L": [
+          {
+            "fix": "LAAMP",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          }
+        ],
+        "7C": [
+          {
+            "fix": "LAAMP",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          }
+        ],
+        "7R": [
+          {
+            "fix": "LAAMP",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "LOGAN",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "SUNST",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "WILEK1",
+      "name": "WILEK 1 ARRIVAL",
+      "airport": "IRFD",
+      "applicableRunways": [
+        "7C",
+        "7L",
+        "25L",
+        "25C",
+        "25R",
+        "7R"
+      ],
+      "runwayRoutes": {
+        "7C": [
+          {
+            "fix": "WILEK",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "TRN",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 2
+          }
+        ],
+        "7L": [
+          {
+            "fix": "WILEK",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "TRN",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 2
+          }
+        ],
+        "25L": [
+          {
+            "fix": "WILEK",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 345
+            },
+            "order": 1
+          }
+        ],
+        "25C": [
+          {
+            "fix": "WILEK",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 345
+            },
+            "order": 1
+          }
+        ],
+        "25R": [
+          {
+            "fix": "WILEK",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 345
+            },
+            "order": 1
+          }
+        ],
+        "7R": [
+          {
+            "fix": "WILEK",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "TRN",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 2
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "name": "LCK",
+          "waypoints": [
+            {
+              "fix": "LCK",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "VIILL",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GULEG1",
+      "name": "GULEG 1 RNAV ARRIVAL",
+      "airport": "ITKO",
+      "applicableRunways": [
+        "13",
+        "20",
+        "31"
+      ],
+      "runwayRoutes": {
+        "13": [
+          {
+            "fix": "SHIBA",
+            "speedRestriction": {
+              "type": "max",
+              "value": 200,
+              "unit": "kts"
+            },
+            "altitudeRestriction": null,
+            "order": 1
+          }
+        ],
+        "20": [
+          {
+            "fix": "PIPER",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ONDER",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 15
+            },
+            "order": 2
+          }
+        ],
+        "31": [
+          {
+            "fix": "PIPER",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ONDER",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 15
+            },
+            "order": 2
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "GULEG",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "BLANK",
+          "waypoints": [
+            {
+              "fix": "BLANK",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "EURAD",
+          "waypoints": [
+            {
+              "fix": "EURAD",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ISLAND2",
+      "name": "ISLAND 2 RNAV ARRIVAL",
+      "airport": "ITKO",
+      "applicableRunways": [
+        "13",
+        "20"
+      ],
+      "runwayRoutes": {
+        "13": [
+          {
+            "fix": "KNIFE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "ONDER",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 2
+          },
+          {
+            "fix": "PIPER",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 3
+          },
+          {
+            "fix": "ASTRO",
+            "speedRestriction": {
+              "type": "max",
+              "value": 200,
+              "unit": "kts"
+            },
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 340
+            },
+            "order": 4
+          }
+        ],
+        "20": [
+          {
+            "fix": "KNIFE",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 340
+            },
+            "order": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "KNIFE2",
+      "name": "KNIFE 2 RNAV ARRIVAL",
+      "airport": "ITKO",
+      "applicableRunways": [
+        "20"
+      ],
+      "commonRoute": [
+        {
+          "fix": "ONDER",
+          "speedRestriction": null,
+          "altitudeRestriction": {
+            "type": "aoa",
+            "value": 2000,
+            "unit": "ft"
+          },
+          "order": 1
+        },
+        {
+          "fix": "KNIFE",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "vectoringInfo": {
+            "heading": 360
+          },
+          "order": 2
+        }
+      ],
+      "transitions": [
+        {
+          "name": "DINER",
+          "waypoints": [
+            {
+              "fix": "DINER",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "PROBE",
+          "waypoints": [
+            {
+              "fix": "PROBE",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PIPER1",
+      "name": "PIPER 1 RNAV ARRIVAL",
+      "airport": "ITKO",
+      "applicableRunways": [
+        "13"
+      ],
+      "commonRoute": [
+        {
+          "fix": "PIPER",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "ASTRO",
+          "speedRestriction": {
+            "type": "max",
+            "value": 200,
+            "unit": "kts"
+          },
+          "altitudeRestriction": null,
+          "vectoringInfo": {
+            "heading": 340
+          },
+          "order": 2
+        }
+      ],
+      "transitions": [
+        {
+          "name": "RENDR",
+          "waypoints": [
+            {
+              "fix": "RENDR",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "DINER",
+          "waypoints": [
+            {
+              "fix": "DINER",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "ONDER",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LUBAN1",
+      "name": "LUBAN 1 RNAV ARRIVAL",
+      "airport": "ILAR",
+      "applicableRunways": [
+        "06",
+        "24"
+      ],
+      "runwayRoutes": {
+        "24": [
+          {
+            "fix": "LUBAN",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "GRASS",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 1500,
+              "unit": "ft"
+            },
+            "order": 2
+          },
+          {
+            "fix": "RENTS",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 1000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 64
+            },
+            "order": 3
+          }
+        ],
+        "06": [
+          {
+            "fix": "LUBAN",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 270
+            },
+            "order": 1
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "name": "ODOKU",
+          "waypoints": [
+            {
+              "fix": "ODOKU",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": {
+                "type": "exact",
+                "value": 2000,
+                "unit": "ft"
+              },
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SOUTHERN1",
+      "name": "SOUTHERN 1 RNAV ARRIVAL",
+      "airport": "ILAR",
+      "applicableRunways": [
+        "06",
+        "24"
+      ],
+      "runwayRoutes": {
+        "24": [
+          {
+            "fix": "RENTS",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "exact",
+              "value": 1000,
+              "unit": "ft"
+            },
+            "vectoringInfo": {
+              "heading": 154
+            },
+            "order": 1
+          }
+        ],
+        "06": [
+          {
+            "fix": "RENTS",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aoa",
+              "value": 2500,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "DAGAT",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 244
+            },
+            "order": 2
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "name": "CAWZE",
+          "waypoints": [
+            {
+              "fix": "CAWZE",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "JUSTY",
+          "waypoints": [
+            {
+              "fix": "JUSTY",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WESTERN1",
+      "name": "WESTERN 1 RNAV ARRIVAL",
+      "airport": "ILAR",
+      "applicableRunways": [
+        "06",
+        "24"
+      ],
+      "runwayRoutes": {
+        "24": [
+          {
+            "fix": "RENTS",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 67
+            },
+            "order": 1
+          }
+        ],
+        "06": [
+          {
+            "fix": "DAGAT",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 244
+            },
+            "order": 1
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "GRASS",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": {
+            "type": "aoa",
+            "value": 2500,
+            "unit": "ft"
+          },
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "JAMSI",
+          "waypoints": [
+            {
+              "fix": "JAMSI",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "ANYMS",
+          "waypoints": [
+            {
+              "fix": "ANYMS",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DINER1",
+      "name": "DINER 1 RNAV ARRIVAL",
+      "airport": "IBTH",
+      "applicableRunways": [
+        "09"
+      ],
+      "commonRoute": [
+        {
+          "fix": "DINER",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "PROBE",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 2
+        },
+        {
+          "fix": "WELSH",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 3
+        },
+        {
+          "fix": "RES",
+          "type": "fix",
+          "speedRestriction": {
+            "type": "max",
+            "value": 170,
+            "unit": "kts"
+          },
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 1000,
+            "unit": "ft"
+          },
+          "order": 4
+        }
+      ],
+      "transitions": [
+        {
+          "name": "ROM",
+          "waypoints": [
+            {
+              "fix": "ROM",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "STRAX",
+          "waypoints": [
+            {
+              "fix": "STRAX",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "TINDR",
+          "waypoints": [
+            {
+              "fix": "TINDR",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "KNIFE",
+          "waypoints": [
+            {
+              "fix": "KNIFE",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAVIN1",
+      "name": "GAVIN 1 RNAV ARRIVAL",
+      "airport": "IBTH",
+      "applicableRunways": [
+        "09"
+      ],
+      "commonRoute": [
+        {
+          "fix": "GAVIN",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "ENDER",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 2
+        },
+        {
+          "fix": "WELSH",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 3
+        },
+        {
+          "fix": "RES",
+          "type": "fix",
+          "speedRestriction": {
+            "type": "max",
+            "value": 170,
+            "unit": "kts"
+          },
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 1000,
+            "unit": "ft"
+          },
+          "order": 4
+        }
+      ],
+      "transitions": [
+        {
+          "name": "SILVA",
+          "waypoints": [
+            {
+              "fix": "SILVA",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "OCEEN",
+          "waypoints": [
+            {
+              "fix": "OCEEN",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "SETHR",
+          "waypoints": [
+            {
+              "fix": "SETHR",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ROM1",
+      "name": "ROMENS 1 RNAV ARRIVAL",
+      "airport": "IBTH",
+      "applicableRunways": [
+        "27"
+      ],
+      "commonRoute": [
+        {
+          "fix": "ROM",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "TALIS",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 2
+        },
+        {
+          "fix": "CAMEL",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 3
+        },
+        {
+          "fix": "VOX",
+          "type": "fix",
+          "speedRestriction": {
+            "type": "max",
+            "value": 170,
+            "unit": "kts"
+          },
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 1000,
+            "unit": "ft"
+          },
+          "order": 4
+        }
+      ],
+      "transitions": [
+        {
+          "name": "DINER",
+          "waypoints": [
+            {
+              "fix": "DINER",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "KNIFE",
+          "waypoints": [
+            {
+              "fix": "KNIFE",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "TINDR",
+          "waypoints": [
+            {
+              "fix": "TINDR",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "STRAX",
+          "waypoints": [
+            {
+              "fix": "STRAX",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SILVA1",
+      "name": "SILVA 1 RNAV ARRIVAL",
+      "airport": "IBTH",
+      "applicableRunways": [
+        "27"
+      ],
+      "commonRoute": [
+        {
+          "fix": "SILVA",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "CYRIL",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 2
+        },
+        {
+          "fix": "CAMEL",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 3
+        },
+        {
+          "fix": "VOX",
+          "type": "fix",
+          "speedRestriction": {
+            "type": "max",
+            "value": 170,
+            "unit": "kts"
+          },
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 1000,
+            "unit": "ft"
+          },
+          "order": 4
+        }
+      ],
+      "transitions": [
+        {
+          "name": "GAVIN",
+          "waypoints": [
+            {
+              "fix": "GAVIN",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "OCEEN",
+          "waypoints": [
+            {
+              "fix": "OCEEN",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WELSH1",
+      "name": "WELSH 1 RNAV ARRIVAL",
+      "airport": "IBTH",
+      "applicableRunways": [
+        "09"
+      ],
+      "commonRoute": [
+        {
+          "fix": "WELSH",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "RES",
+          "type": "fix",
+          "speedRestriction": {
+            "type": "max",
+            "value": 170,
+            "unit": "kts"
+          },
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 1000,
+            "unit": "ft"
+          },
+          "order": 2
+        }
+      ],
+      "transitions": [
+        {
+          "name": "KEN",
+          "waypoints": [
+            {
+              "fix": "KEN",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "RENDR",
+          "waypoints": [
+            {
+              "fix": "RENDR",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GOLDN1",
+      "name": "GOLDN 1 RNAV ARRIVAL",
+      "airport": "IGRV",
+      "applicableRunways": [
+        "06"
+      ],
+      "commonRoute": [
+        {
+          "fix": "BLANK",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "THENR",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 2
+        },
+        {
+          "fix": "GOLDN",
+          "type": "fix",
+          "speedRestriction": {
+            "type": "max",
+            "value": 200,
+            "unit": "kts"
+          },
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 1000,
+            "unit": "ft"
+          },
+          "vectoringInfo": {
+            "heading": 180
+          },
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "SPACE1",
+      "name": "SPACE 1 RNAV ARRIVAL",
+      "airport": "IGRV",
+      "applicableRunways": [
+        "06",
+        "24"
+      ],
+      "runwayRoutes": {
+        "24": [
+          {
+            "fix": "ICYYY",
+            "type": "fix",
+            "speedRestriction": {
+              "type": "exact",
+              "value": 190,
+              "unit": "kts"
+            },
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 65
+            },
+            "order": 1
+          }
+        ],
+        "06": [
+          {
+            "fix": "TVARO",
+            "type": "fix",
+            "speedRestriction": {
+              "type": "exact",
+              "value": 190,
+              "unit": "kts"
+            },
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 245
+            },
+            "order": 1
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "SPACE",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "CELAR",
+          "type": "fix",
+          "speedRestriction": {
+            "type": "max",
+            "value": 220,
+            "unit": "kts"
+          },
+          "altitudeRestriction": null,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "LCK1",
+      "name": "LARNACA 1 ARRIVAL",
+      "airport": "IIAB",
+      "applicableRunways": [
+        "09R",
+        "09L",
+        "27R",
+        "27L"
+      ],
+      "runwayRoutes": {
+        "09R": [
+          {
+            "fix": "AQWRT",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 275
+            },
+            "order": 1
+          }
+        ],
+        "09L": [
+          {
+            "fix": "AQWRT",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 275
+            },
+            "order": 1
+          }
+        ],
+        "27R": [
+          {
+            "fix": "MCL",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "INT160-085-DIR-OUT",
+            "type": "intercept",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "interceptHeading": "160",
+            "interceptCourse": 85,
+            "interceptWaypoint": "DIR",
+            "interceptType": "outbound",
+            "vectoringInfo": {
+              "heading": 85
+            },
+            "order": 2
+          }
+        ],
+        "27L": [
+          {
+            "fix": "MCL",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": {
+              "type": "aob",
+              "value": 2000,
+              "unit": "ft"
+            },
+            "order": 1
+          },
+          {
+            "fix": "INT160-085-DIR-OUT",
+            "type": "intercept",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "interceptHeading": "160",
+            "interceptCourse": 85,
+            "interceptWaypoint": "DIR",
+            "interceptType": "outbound",
+            "vectoringInfo": {
+              "heading": 85
+            },
+            "order": 2
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "LCK",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": {
+            "type": "exact",
+            "value": 3000,
+            "unit": "ft"
+          },
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "GRASS",
+          "waypoints": [
+            {
+              "fix": "GRASS",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "RENTS",
+          "waypoints": [
+            {
+              "fix": "RENTS",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BIGDY1",
+      "name": "BIGDY 1 RNAV ARRIVAL",
+      "airport": "IMLR",
+      "applicableRunways": [
+        "07",
+        "25"
+      ],
+      "runwayRoutes": {
+        "25": [
+          {
+            "fix": "BIGDY",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          }
+        ],
+        "07": [
+          {
+            "fix": "BIGDY",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 215
+            },
+            "order": 1
+          }
+        ]
+      },
+      "transitions": [
+        {
+          "name": "SETHR",
+          "waypoints": [
+            {
+              "fix": "SETHR",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "KUNAV",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "name": "ATPEV",
+          "waypoints": [
+            {
+              "fix": "ATPEV",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "HAWFA",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BUCFA1",
+      "name": "BUCFA 1 RNAV ARRIVAL",
+      "airport": "IMLR",
+      "applicableRunways": [
+        "25"
+      ],
+      "commonRoute": [
+        {
+          "fix": "SAWPE",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        },
+        {
+          "fix": "BUCFA",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "vectoringInfo": {
+            "heading": 76
+          },
+          "order": 2
+        }
+      ],
+      "transitions": [
+        {
+          "name": "SPACE",
+          "waypoints": [
+            {
+              "fix": "SPACE",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": {
+                "type": "exact",
+                "value": 1500,
+                "unit": "ft"
+              },
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "BEANS",
+          "waypoints": [
+            {
+              "fix": "BEANS",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": {
+                "type": "exact",
+                "value": 1500,
+                "unit": "ft"
+              },
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "NRTHN1",
+      "name": "NORTHERN 1 RNAV ARRIVAL",
+      "airport": "IMLR",
+      "applicableRunways": [
+        "07",
+        "25"
+      ],
+      "runwayRoutes": {
+        "25": [
+          {
+            "fix": "KUNAV",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 1
+          },
+          {
+            "fix": "BIGDY",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "order": 2
+          }
+        ],
+        "07": [
+          {
+            "fix": "BUCFA",
+            "type": "fix",
+            "speedRestriction": null,
+            "altitudeRestriction": null,
+            "vectoringInfo": {
+              "heading": 246
+            },
+            "order": 1
+          }
+        ]
+      },
+      "commonRoute": [
+        {
+          "fix": "KENED",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": {
+            "type": "aob",
+            "value": 1500,
+            "unit": "ft"
+          },
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "DINER",
+          "waypoints": [
+            {
+              "fix": "DINER",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "NKITA",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            },
+            {
+              "fix": "INDEX",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 3
+            }
+          ]
+        },
+        {
+          "name": "RENDR",
+          "waypoints": [
+            {
+              "fix": "RENDR",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "WELSH",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "URMOM1",
+      "name": "URMOM 1 RNAV ARRIVAL",
+      "airport": "IMLR",
+      "applicableRunways": [
+        "07"
+      ],
+      "commonRoute": [
+        {
+          "fix": "URMOM",
+          "type": "fix",
+          "speedRestriction": null,
+          "altitudeRestriction": null,
+          "order": 1
+        }
+      ],
+      "transitions": [
+        {
+          "name": "SPACE",
+          "waypoints": [
+            {
+              "fix": "SPACE",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            }
+          ]
+        },
+        {
+          "name": "SEEKS",
+          "waypoints": [
+            {
+              "fix": "SEEKS",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "BEANS",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        },
+        {
+          "name": "ALDER",
+          "waypoints": [
+            {
+              "fix": "ALDER",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 1
+            },
+            {
+              "fix": "BEANS",
+              "type": "fix",
+              "speedRestriction": null,
+              "altitudeRestriction": null,
+              "order": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
