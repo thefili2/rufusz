@@ -1,47 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>24Route</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="assets/favicon.png">
 
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
 </head>
+
 <body>
-  <div class="container">
-    <h1>24Route</h1>
 
-    <div class="input-group">
-      <label>Departure Airport:</label>
-      <select id="departing"></select>
+  <!-- PAGE WRAPPER -->
+  <div class="page">
+
+    <!-- MAIN LAYOUT -->
+    <div class="layout">
+
+      <!-- LEFT PANEL -->
+      <div class="container">
+        <h1>24Route</h1>
+
+        <div class="input-group">
+          <label>Departure Airport:</label>
+          <select id="departing"></select>
+        </div>
+
+        <div class="input-group">
+          <label>Arrival Airport:</label>
+          <select id="arriving"></select>
+        </div>
+
+        <div class="input-group">
+          <label>Departure Runway:</label>
+          <select id="depRwy"></select>
+        </div>
+
+        <div class="input-group">
+          <label>Arrival Runway:</label>
+          <select id="arrRwy"></select>
+        </div>
+
+        <button id="generate" class="main-btn">
+          Generate Flight Plan
+        </button>
+
+        <button id="toggle-route-wp" class="secondary-btn" disabled>
+          Show route waypoints only
+        </button>
+
+        <!-- SID / STAR CONTROLS -->
+        <div class="proc-controls">
+          <div class="proc">
+            <div class="proc-label">
+              SID: <span id="sidName">—</span>
+            </div>
+            <div class="proc-buttons">
+              <button id="prevSid" class="proc-btn" type="button">◀</button>
+              <button id="nextSid" class="proc-btn" type="button">▶</button>
+            </div>
+          </div>
+
+          <div class="proc">
+            <div class="proc-label">
+              STAR: <span id="starName">—</span>
+            </div>
+            <div class="proc-buttons">
+              <button id="prevStar" class="proc-btn" type="button">◀</button>
+              <button id="nextStar" class="proc-btn" type="button">▶</button>
+            </div>
+          </div>
+        </div>
+
+        <h2>Flight Plan Output</h2>
+        <pre id="output"></pre>
+      </div>
+
+      <!-- RIGHT PANEL : MAP -->
+      <canvas id="map" width="1000" height="600"></canvas>
+
     </div>
 
-    <div class="input-group">
-      <label>Arrival Airport:</label>
-      <select id="arriving"></select>
-    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      © 2025 24Route — Thefili02
+    </footer>
 
-    <div class="input-group">
-      <label>Departure Runway:</label>
-      <select id="depRwy"></select>
-    </div>
-
-    <div class="input-group">
-      <label>Arrival Runway:</label>
-      <select id="arrRwy"></select>
-    </div>
-
-    <button id="generate">Generate Flight Plan</button>
-
-    <h2>Flight Plan Output</h2>
-    <pre id="output"></pre>
   </div>
 
-
-<!-- Discord Button -->
-<a id="discord-button" href="https://discord.gg/nW7DV6Rdad" target="_blank">Join Discord</a>
-
+  <!-- DISCORD BUTTON -->
+  <a
+    id="discord-button"
+    href="https://discord.gg/nW7DV6Rdad"
+    target="_blank"
+  >
+    Join Discord
+  </a>
 
   <script src="script.js"></script>
 </body>
