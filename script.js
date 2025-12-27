@@ -44,7 +44,7 @@ function getTextBox(ctx, text, x, y) {
   const metrics = ctx.measureText(text);
   const w = metrics.width;
   const h = 25; // approx height at 10px font
-  return { x: x - w/2, y: y - h, w, h };
+  return { x: x - w / 2, y: y - h, w, h };
 }
 
 
@@ -222,6 +222,16 @@ generate.onclick = () => {
   toggleBtn.disabled = false;
   toggleBtn.textContent = "Show route waypoints only";
 
+  copy.disabled = false;
+  copy.textContent = "Copy to clipboard";
+  copy.onclick = () => {
+    navigator.clipboard.writeText(plan.join(" "));
+    copy.textContent = "Copied!";
+    setTimeout(() => {
+      copy.textContent = "Copy to clipboard";
+    }, 2000);
+  };
+
   draw();
 };
 
@@ -269,10 +279,10 @@ function drawWaypoints() {
     ctx.fill();
 
     const labelPositions = [
-      { x: p.x,     y: p.y - 10 }, 
-      { x: p.x + 12,y: p.y },      
-      { x: p.x,     y: p.y + 12 }, 
-      { x: p.x - 12,y: p.y }       
+      { x: p.x, y: p.y - 10 },
+      { x: p.x + 12, y: p.y },
+      { x: p.x, y: p.y + 12 },
+      { x: p.x - 12, y: p.y }
     ];
 
     for (let pos of labelPositions) {
@@ -311,13 +321,13 @@ function drawRoute() {
   ctx.stroke();
 
   points.forEach((p, i) => {
-  ctx.fillStyle = "#ffffffff";
-  ctx.beginPath();
-  ctx.arc(p.x, p.y, 10, 0, Math.PI * 2);
-  ctx.fill();
+    ctx.fillStyle = "#ffffffff";
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, 10, 0, Math.PI * 2);
+    ctx.fill();
 
-  ctx.fillText(fixes[i], p.x, p.y - 8);
-});
+    ctx.fillText(fixes[i], p.x, p.y - 8);
+  });
 
 }
 
@@ -349,7 +359,7 @@ function getRouteFixes() {
 
   return [...new Set(fixes)];
 }
- 
+
 
 
 mapImage.onload = loadData;
