@@ -74,6 +74,18 @@ toggleBtn.onclick = () => {
   draw();
 };
 
+const directCheckbox = document.getElementById("directRoute");
+const procControls = document.querySelector(".proc-controls");
+
+directCheckbox.onchange = () => {
+  if (directCheckbox.checked) {
+    procControls.classList.add("disabled-area");
+  } else {
+    procControls.classList.remove("disabled-area");
+  }
+  draw();
+};
+
 
 async function loadData() {
   const [wpRes, sidRes, starRes] = await Promise.all([
@@ -202,17 +214,28 @@ nextStar.onclick = () => {
 
 
 generate.onclick = () => {
-  const sid = availableSids[currentSidIndex];
-  const star = availableStars[currentStarIndex];
+  const isDirect = document.getElementById("directRoute").checked;
+  let plan = [];
 
-  const plan = [
-    `${departing.value}/${depRwy.value}`,
-    sid?.id,
-    activeSidTransition?.name,
-    star?.id,
-    activeStarTransition?.name,
-    `${arrRwy.value}/${arriving.value}`
-  ].filter(Boolean);
+  if (isDirect) {
+    plan = [
+      `${departing.value}/${depRwy.value}`,
+      "DCT",
+      `${arrRwy.value}/${arriving.value}`
+    ].filter(Boolean);
+  } else {
+    const sid = availableSids[currentSidIndex];
+    const star = availableStars[currentStarIndex];
+
+    plan = [
+      `${departing.value}/${depRwy.value}`,
+      sid?.id,
+      activeSidTransition?.name,
+      star?.id,
+      activeStarTransition?.name,
+      `${arrRwy.value}/${arriving.value}`
+    ].filter(Boolean);
+  }
 
   output.textContent = plan.join(" ");
 
@@ -334,31 +357,80 @@ function drawRoute() {
 function getRouteFixes() {
   if (!availableSids.length || !availableStars.length) return [];
 
-  const sid = availableSids[currentSidIndex];
-  const star = availableStars[currentStarIndex];
-
+  const isDirect = document.getElementById("directRoute").checked;
   const fixes = [];
 
-  const sidRunwayRoute = sid.runwayRoutes?.[depRwy.value];
-  if (sidRunwayRoute) {
-    sidRunwayRoute.forEach(p => fixes.push(p.fix));
-  }
+  if (isDirect) {
+    // Helper: Find ANY valid coordinate-fix for a given airport by scanning all its procedures
+    // mode: 'dep' (search for start of procedures) or 'arr' (search for end of procedures)
+    const findAirportFix = (airportCode, procedures, mode) => {
+      // Filter procedures for this airport
+      const airProcs = procedures.filter(p => p.airport === airportCode);
 
-  if (activeSidTransition?.waypoints) {
-    activeSidTransition.waypoints.forEach(p => fixes.push(p.fix));
-  }
+      for (const proc of airProcs) {
+        // Collect all potential fix lists from this procedure
+        const candidates = [];
 
-  if (activeStarTransition?.waypoints) {
-    activeStarTransition.waypoints.forEach(p => fixes.push(p.fix));
-  }
+        // Add runway routes points
+        if (proc.runwayRoutes) {
+          Object.values(proc.runwayRoutes).forEach(route => {
+            candidates.push(route);
+          });
+        }
+        // Add common route
+        if (proc.commonRoute) candidates.push(proc.commonRoute);
 
-  const starRunwayRoute = star.runwayRoutes?.[arrRwy.value];
-  if (starRunwayRoute) {
-    starRunwayRoute.forEach(p => fixes.push(p.fix));
+        // For each candidate list, try to find a valid fix
+        for (const list of candidates) {
+          if (!list || !list.length) continue;
+
+          // For Departure, we want the first valid fix (closest to airport/takeoff)
+          // For Arrival, we want the last valid fix (closest to airport/landing)
+          // But note: STAR definitions usually flow Entry -> Runway. So last point is closest to runway.
+          // SID definitions flow Runway -> Exit. So first point is closest to runway.
+
+          const pointsToCheck = (mode === 'arr') ? [...list].reverse() : list;
+
+          const valid = pointsToCheck.find(p => waypoints.some(w => w.identifier === p.fix));
+          if (valid) return valid.fix;
+        }
+      }
+      return null;
+    };
+
+    const depFix = findAirportFix(departing.value, sids, 'dep');
+    const arrFix = findAirportFix(arriving.value, stars, 'arr');
+
+    if (depFix) fixes.push(depFix);
+    if (arrFix) fixes.push(arrFix);
+
+  } else {
+    // Normal Procedure Route
+    const sid = availableSids[currentSidIndex];
+    const star = availableStars[currentStarIndex];
+
+    const sidRunwayRoute = sid.runwayRoutes?.[depRwy.value];
+    if (sidRunwayRoute) {
+      sidRunwayRoute.forEach(p => fixes.push(p.fix));
+    }
+
+    if (activeSidTransition?.waypoints) {
+      activeSidTransition.waypoints.forEach(p => fixes.push(p.fix));
+    }
+
+    if (activeStarTransition?.waypoints) {
+      activeStarTransition.waypoints.forEach(p => fixes.push(p.fix));
+    }
+
+    const starRunwayRoute = star.runwayRoutes?.[arrRwy.value];
+    if (starRunwayRoute) {
+      starRunwayRoute.forEach(p => fixes.push(p.fix));
+    }
   }
 
   return [...new Set(fixes)];
 }
+
 
 
 

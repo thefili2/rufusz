@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -133,7 +132,7 @@ button.main-btn:hover {
   height: 1054px;
 
   max-width: 100%;
-  max-height: 80vh; 
+  max-height: 80vh;
 
   background-color: #0b0b0b;
   border-radius: 8px;
@@ -151,6 +150,7 @@ button.main-btn:hover {
   white-space: pre-line;
   font-size: 0.95rem;
 }
+
 #output-title {
   margin-top: 40px;
 }
@@ -167,7 +167,7 @@ button.main-btn:hover {
   font-weight: bold;
   text-decoration: none;
 
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   z-index: 1000;
 }
 
@@ -224,4 +224,23 @@ button.main-btn:hover {
 .layout {
   margin-left: -65px;
   margin-top: 45px;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.checkbox-wrapper input {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.disabled-area {
+  opacity: 0.3;
+  pointer-events: none;
+  filter: grayscale(100%);
 }
